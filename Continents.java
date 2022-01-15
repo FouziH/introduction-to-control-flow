@@ -23,7 +23,6 @@ public class Continents {
                     break;
                 case 7:
                     System.out.println("Antarctica: McMurdo Station, US");
-        
             default:
             System.out.println("Undefined continent!");
                 break;

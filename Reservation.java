@@ -18,6 +18,7 @@ public class Reservation {
             isConfirmed = true;
         } else {
             System.err.println("Reservation denied");
+            isConfirmed = false;
         }
     }
 }

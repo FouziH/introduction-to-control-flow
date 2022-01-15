@@ -11,6 +11,7 @@ public Conditional (boolean filled, double cost, String shippingMethod, String c
     isFilled = filled;
     billAmount = cost;
     shipping = shippingMethod;
+    couponCode = coupon;
 
 
 }

@@ -7,6 +7,8 @@ public class CarLoan {
         int downPayment = 2000;
         if(loanLength <= 0 || interestRate <= 0){
             System.out.println("Error! You must take out a valid car loan.");
+        } else if(downPayment >= carLoan){
+            
         }
 
     }

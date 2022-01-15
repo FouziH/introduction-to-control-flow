@@ -14,7 +14,7 @@ public class Reservation {
 
     public void confirmedReservation() {
         if(restaurantCapacity >= guestCount && isRestaurantOpen){
-            
+            System.err.println("Reservation confirmed");
         }
     }
 }

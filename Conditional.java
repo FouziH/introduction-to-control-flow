@@ -19,7 +19,7 @@ public class Conditional {
             System.out.println("Shipping");
             System.out.println("Shipping cost: " + calculateShipping());
         } else {
-            System.out.println("ORder not ready");
+            System.out.println("Order not ready");
         }
     }
 

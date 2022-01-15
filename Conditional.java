@@ -8,6 +8,9 @@ String couponCode;
 //Class constructor method
 //This constructor method takes fee arguments 
 public Conditional (boolean filled, double cost, String shippingMethod, String coupon) {
+    isFilled = filled;
+    billAmount = cost;
+    
 
 }
 

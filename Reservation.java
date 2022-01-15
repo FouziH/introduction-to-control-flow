@@ -4,6 +4,8 @@ public class Reservation {
     boolean isRestaurantOpen;
     boolean isConfirmed;
     public Reservation(int count, int capacity, boolean open) {
+        guestCount = count;
+        restaurantCapacity = capacity;
         
     }
 }

@@ -13,6 +13,11 @@ public Conditional (boolean filled, double cost, String shippingMethod, String c
     shipping = shippingMethod;
     couponCode = coupon;
 }
+public void ship() {
+    if(isFilled) {
+        System.out.println("Shipping");
+    }
+}
 
     public static void main(String[] args) {
 

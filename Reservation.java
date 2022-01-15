@@ -23,6 +23,8 @@ public class Reservation {
     }
 
     public void informUser() {
-        
+        if(!isConfirmed) {
+            System.err.println("Unable to confirm reservation, please contact restaurant");
+        }
     }
 }

@@ -21,4 +21,8 @@ public class Reservation {
             isConfirmed = false;
         }
     }
+
+    public void informUser() {
+        
+    }
 }

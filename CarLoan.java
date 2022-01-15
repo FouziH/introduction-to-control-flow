@@ -13,9 +13,11 @@ public class CarLoan {
             int remainingBalance = carLoan - downPayment;
             int months = loanLength * 12;
             int monthlyBalance = remainingBalance / months;
+            int interest = (monthlyBalance * interestRate ) / 100;
+            int monthlyPayment = monthlyBalance + interest ;
 
 
-            System.err.println("Your monthly payment is " );
+            System.err.println("Your monthly payment is " + monthlyPayment );
 
         }
 

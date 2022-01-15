@@ -24,3 +24,13 @@
        }
 
        if the outer conditional statement is not true, the nested condition will not be evaluated. 
+
+       Switch Statement 
+
+        ---> Alternative to chaining if then conditional statement together is to use the Switch Statement
+            This conditional will check a given value against any number of conditions and run the code block where there is a match;   
+
+
+
+            
+

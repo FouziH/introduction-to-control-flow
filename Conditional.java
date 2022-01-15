@@ -28,8 +28,8 @@ public class Conditional {
             return 0;
         } else if (shipping.equals("Express")) {
             if(couponCode.equals("ship50")) {
-                
-            }
+                return .85;
+            }else 
         }
     }
 

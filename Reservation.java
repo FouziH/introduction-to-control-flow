@@ -11,4 +11,8 @@ public class Reservation {
         restaurantCapacity = capacity;
         isRestaurantOpen = open;
     }
+
+    public void confirmedReservation() {
+        if()
+    }
 }

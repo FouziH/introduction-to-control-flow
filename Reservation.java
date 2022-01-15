@@ -29,4 +29,8 @@ public class Reservation {
             System.out.println("Please enjoy your meal!");
         }
     }
+
+    public static void main (String[] args) {
+        
+    }
 }

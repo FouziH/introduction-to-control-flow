@@ -39,7 +39,7 @@ public class Conditional {
 
     public static void main(String[] args) {
         Conditional orderBook = new Conditional(true, 15.99, "Express", "ship50");
-        Conditional chemistrySet = new Conditional(true, 149.99, "freeShipping", "Regular");
+        Conditional chemistrySet = new Conditional(true, 149.99, "freeShipping", "ship50");
 
         orderBook.ship();
         chemistrySet.ship();

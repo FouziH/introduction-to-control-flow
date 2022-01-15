@@ -13,6 +13,8 @@ public class Reservation {
     }
 
     public void confirmedReservation() {
-        if()
+        if(restaurantCapacity >= guestCount && isRestaurantOpen){
+            
+        }
     }
 }

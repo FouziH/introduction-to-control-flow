@@ -55,7 +55,10 @@ public class Conditional {
                 break;
             case "History":
                 System.err.println("Enroll in History");
-        
+                break;
+            case "Theatre":
+                System.err.println("Enroll in Theatre");
+                 break;
             default:
                 System.out.println("Course not found");
                 break;

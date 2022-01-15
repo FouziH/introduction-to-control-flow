@@ -5,6 +5,9 @@ public class CarLoan {
         int loanLength = 3;
         int interestRate = 5;
         int downPayment = 2000;
+        if(loanLength <= 0 || interestRate <= 0){
+            
+        }
 
     }
 

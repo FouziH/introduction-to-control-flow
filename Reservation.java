@@ -11,6 +11,5 @@ public class Reservation {
         guestCount = count;
         restaurantCapacity = capacity;
         isRestaurantOpen = open;
-
     }
 }

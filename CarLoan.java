@@ -17,7 +17,7 @@ public class CarLoan {
             int monthlyPayment = monthlyBalance + interest ;
 
 
-            System.err.println("Your monthly payment is " + monthlyPayment );
+            System.out.println("Your monthly payment is " + monthlyPayment );
 
         }
 

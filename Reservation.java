@@ -36,5 +36,6 @@ public class Reservation {
         partyOfThree.confirmedReservation();
         partyOfThree.informUser();
         partyOfFour.confirmedReservation();
+        partyOfFour.informUser();
     }
 }

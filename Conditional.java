@@ -16,7 +16,14 @@ public Conditional (boolean filled, double cost, String shippingMethod, String c
 public void ship() {
     if(isFilled) {
         System.out.println("Shipping");
+        System.out.println("Shipping cost: "  + calculateShipping());
+    } else {
+        System.out.println("ORder not ready");
     }
+}
+
+public double calculateShipping() {
+    
 }
 
     public static void main(String[] args) {

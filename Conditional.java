@@ -1,6 +1,8 @@
 public class Condtional {
 
-boolean 
+boolean isFilled;
+double billAmount;
+
     public static void main(String[] args) {
 
     }

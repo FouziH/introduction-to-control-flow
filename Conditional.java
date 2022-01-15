@@ -29,7 +29,9 @@ public class Conditional {
         } else if (shipping.equals("Express")) {
             if(couponCode.equals("ship50")) {
                 return .85;
-            }else 
+            } else {
+                return 1.75;
+            }
         }
     }
 

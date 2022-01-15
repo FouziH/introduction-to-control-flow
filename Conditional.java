@@ -54,7 +54,7 @@ public class Conditional {
                 System.out.println(" Enroll in Biology");
                 break;
             case "History":
-                System.err.println();
+                System.err.println("Enroll in History");
         
             default:
                 System.out.println("Course not found");

@@ -32,6 +32,8 @@ public class Conditional {
             } else {
                 return 1.75;
             }
+        } else {
+            return .50;
         }
     }
 

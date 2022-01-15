@@ -3,5 +3,7 @@ public class Reservation {
     int restaurantCapacity;
     boolean isRestaurantOpen;
     boolean isConfirmed;
-    
+    public Reservation(int count, int capacity, boolean open) {
+        
+    }
 }

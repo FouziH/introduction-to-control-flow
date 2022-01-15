@@ -46,6 +46,15 @@ public class Conditional {
 
         String course = "History";
 
+        switch (course) {
+            case "Algebra":
+                System.out.println(" Enroll in Algebra");                
+                break;
+        
+            default:
+                break;
+        }
+
 
     }
 }

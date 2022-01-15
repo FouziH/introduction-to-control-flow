@@ -18,5 +18,9 @@
            System.out.println("Wear a jacket");
            if(raining == true) {
                System.out.println("Bring your umbrella");
+           } else {
+               System.out.println("Leave your umbrella at home.");
            }
        }
+
+       if the outer conditional statement is not true, the nested condition will not be evaluated. 

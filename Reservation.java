@@ -16,6 +16,8 @@ public class Reservation {
         if(restaurantCapacity >= guestCount && isRestaurantOpen){
             System.err.println("Reservation confirmed");
             isConfirmed = true;
+        } else {
+            System.err.println("Reservation denied");
         }
     }
 }

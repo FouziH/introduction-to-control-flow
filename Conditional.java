@@ -50,8 +50,11 @@ public class Conditional {
             case "Algebra":
                 System.out.println(" Enroll in Algebra");                
                 break;
+            case "Biology":
+            System.out.println();
         
             default:
+                System.out.println("Course not found");
                 break;
         }
 

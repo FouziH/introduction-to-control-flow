@@ -23,7 +23,11 @@ public void ship() {
 }
 
 public double calculateShipping() {
-    
+    if(shipping.equals("Regular")) {
+        return 0;
+    } else if(shipping.equals("Express")) {
+
+    }
 }
 
     public static void main(String[] args) {

@@ -63,7 +63,5 @@ public class Conditional {
                 System.out.println("Course not found");
                 break;
         }
-
-
     }
 }

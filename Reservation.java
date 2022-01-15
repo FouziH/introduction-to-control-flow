@@ -35,5 +35,6 @@ public class Reservation {
         Reservation partyOfFour = new Reservation(4, 3, true);
         partyOfThree.confirmedReservation();
         partyOfThree.informUser();
+        partyOfFour.confirmedReservation();
     }
 }

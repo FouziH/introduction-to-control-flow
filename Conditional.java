@@ -42,6 +42,7 @@ public class Conditional {
         Conditional chemistrySet = new Conditional(false, 149.99, "freeShipping", "Regular");
 
         orderBook.ship();
+        chemistrySet.ship();
 
 
     }

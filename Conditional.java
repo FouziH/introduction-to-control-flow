@@ -10,7 +10,8 @@ String couponCode;
 public Conditional (boolean filled, double cost, String shippingMethod, String coupon) {
     isFilled = filled;
     billAmount = cost;
-    
+    shipping = shippingMethod;
+
 
 }
 

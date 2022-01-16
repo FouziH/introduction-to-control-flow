@@ -14,6 +14,8 @@ import java.util.ArrayList;
         toDoList.add(toDo1);
         toDoList.add(toDo2);
         toDoList.add(toDo3);
+
+        System.out.println(toDoList);
     }
 
     

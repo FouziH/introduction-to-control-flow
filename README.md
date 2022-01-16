@@ -70,7 +70,12 @@
     To create mutable and dynamic list, we use JAva's ArrayLits:
 
     ArrayList Allow to:
-        
+        Store object reference as elements
+        Store elements of the same type just like and arrays
+        Access elements by index just like an arrays 
+        add elements
+        remove elements 
+
 
 
 

@@ -16,7 +16,11 @@ public class EmptyArray {
     }
 
     public  static void main (String[] args) {
-        
+        EmptyArray sampleFeed = new EmptyArray();
+
+        sampleFeed.setFavoriteArticles(2, "Humans: Exterminate Or Not?");
+        sampleFeed.setFavoriteArticles(3, "Organic Eye Implants");
+    
     }
 
 

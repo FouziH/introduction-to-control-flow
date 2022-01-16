@@ -155,6 +155,10 @@
         shoppingCart.remove("Trench Coat");
         // shoppingCart now holds ["Tweed Houndstooth Hat", "Magnifying Glass"]
 
+## Getting an Item's Index
+
+    
+
 
 
 

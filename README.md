@@ -155,8 +155,17 @@
         shoppingCart.remove("Trench Coat");
         // shoppingCart now holds ["Tweed Houndstooth Hat", "Magnifying Glass"]
 
-## Getting an Item's Index
+## Loops
 
+    While we're here 
+
+        A While loop looks a bit like an if statement.
+
+            while(Silliness > 10) {
+                //codes to run 
+            }
+
+            Like an if statement, the code inside a while loop will only run if the condition is true.
     
 
 

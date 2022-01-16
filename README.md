@@ -124,6 +124,12 @@
 
         For ArrayList, brackets notations wont work. instead, we use the method get() to access and index/element.
 
+## Changing the value
+
+        When we were using array, we could rewrite entries by the using bracket notation to reassign value
+
+
+
 
 
 

@@ -31,6 +31,9 @@
             This conditional will check a given value against any number of conditions and run the code block where there is a match;   
 
 
+    Creating an array explicitly 
 
+    To create and array 
+        We first need to declare the type of data it hold:
             
 

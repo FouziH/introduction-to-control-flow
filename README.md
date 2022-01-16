@@ -76,6 +76,9 @@
         add elements
         remove elements 
 
+        To import ArrayList from Java package we need to:
+            import java.util.ArrayList;
+
 
 
 

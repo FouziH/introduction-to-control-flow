@@ -49,7 +49,7 @@
         We can also use arrays to hold Strings and other objects as well as primitives
 
         Example:
-            
+            String[] clothingItems = {"Tank Top", "Bennie", "Funny Socks", "Corduroys"};
 
 
 

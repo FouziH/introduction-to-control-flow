@@ -79,6 +79,11 @@
         To import ArrayList from Java package we need to:
             import java.util.ArrayList;
 
+            // Declaring:
+            ArrayList<Integer> ages;
+            // Initializing:
+            ages = new ArrayList<Integer>();
+
 
 
 

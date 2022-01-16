@@ -15,6 +15,9 @@ public class EmptyArray {
 
     }
 
+    public  static void main (String[] args) {
+        
+    }
 
 
     

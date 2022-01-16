@@ -97,6 +97,19 @@
 
             To get the length of an ArrayList, we need to use the size() method to get the length.
 
+            For Example:
+
+            String toDo1 = "Eat Healthy";
+            String toDo2  = "Go my home show appointmenst";
+            String toDo3 = "Finish the Java CodeAcademy Course by Monday";
+
+            toDoList.add(toDo1);
+            toDoList.add(toDo2);
+            toDoList.add(toDo3);
+
+            System.out.println(toDoList);
+
+
 
 
 

@@ -6,6 +6,11 @@ public class EmptyArray {
 
     public EmptyArray() {
 
+        //initialize favoriteArticles here:
+        favoriteArticles = new String[10];
+
     }
+
+    
     
 }

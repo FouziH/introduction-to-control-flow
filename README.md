@@ -59,6 +59,10 @@
 
             import java.util.Arrays
 
+            Tod print String[] topics = {"Opinion", "Tech", "Science", "Health"};
+            
+            System.out.println(Arrays.toString(topics));
+
 
 
 

@@ -118,6 +118,11 @@
 
         With normal arrays[]
             We can use brackets notation to access the value of a particular index/element.
+            double[] ratings = {3.2, 2.5, 1.7};
+ 
+            System.out.println(ratings[1]);
+
+        For ArrayList, brackets notations wont work. instead, we use the method get() to access and index/element.
 
 
 

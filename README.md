@@ -63,7 +63,9 @@
             
             System.out.println(Arrays.toString(topics));
 
-        Get elements
+##  ArrayList 
+
+    In Java, when an array is created, it has a fixed size and we can add or remove elements. 
 
 
 

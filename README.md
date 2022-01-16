@@ -40,5 +40,10 @@
 
         Then we can explicitly initialize the array to contain the data we want to store:
 
+        prices = {12, 15, 15.87, 14.22, 16.66};
+
+
+        
+
             
 

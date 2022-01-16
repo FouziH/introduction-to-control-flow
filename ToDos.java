@@ -21,8 +21,9 @@ import java.util.ArrayList;
 
         //To get and element/index of an ArrayList 
         System.out.println(toDoList.get(1));
+        
 
-        System.out.println(toDoList);
+        System.out.println(toDoList.toString());
         System.out.println(toDoList.get(2));
     }
 

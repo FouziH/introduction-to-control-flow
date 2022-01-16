@@ -19,6 +19,9 @@ import java.util.ArrayList;
         //To add element/index to an ArrayList 
         toDoList.add("Hamza");
 
+        //To get and element/index of an ArrayList 
+        toDoList.get(1);
+
         System.out.println(toDoList);
         System.out.println(toDoList.get(2));
     }

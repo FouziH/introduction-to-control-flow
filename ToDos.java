@@ -12,6 +12,8 @@ import java.util.ArrayList;
         String toDo3 = "Finish the Java CodeAcademy Course by Monday";
 
         toDoList.add(toDo1);
+        toDoList.add(toDo2);
+        toDoList.add(toDo3);
     }
 
     

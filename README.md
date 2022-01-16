@@ -63,7 +63,108 @@
             
             System.out.println(Arrays.toString(topics));
 
-        Get elements
+##  ArrayList 
+
+    In Java, when an array is created, it has a fixed size and we can add or remove elements. 
+
+    To create mutable and dynamic list, we use JAva's ArrayLits:
+
+    ArrayList Allow to:
+        Store object reference as elements
+        Store elements of the same type just like and arrays
+        Access elements by index just like an arrays 
+        add elements
+        remove elements 
+
+        To import ArrayList from Java package we need to:
+            import java.util.ArrayList;
+
+            // Declaring:
+            ArrayList<Integer> ages;
+            // Initializing:
+            ages = new ArrayList<Integer>();
+
+            Also 
+
+                ArrayList<String> toDoList = new ArrayList<String>();
+
+            
+            ArrayList comes with and add() method which inserts and element into the structure.
+
+            If we want to add an element at the end of the ArrayList, we will call add() method to add an index/element.
+
+## ArrayList Size 
+
+            To get the length of an ArrayList, we need to use the size() method to get the length.
+
+            For Example:
+
+
+            ArrayList<String> toDoList = new ArrayList<String>();
+
+            String toDo1 = "Eat Healthy";
+            String toDo2  = "Go my home show appointmenst";
+            String toDo3 = "Finish the Java CodeAcademy Course by Monday";
+
+            toDoList.add(toDo1);
+            toDoList.add(toDo2);
+            toDoList.add(toDo3);
+
+
+            //Accessing the size of the ArrayList 
+            System.out.println(toDoList.size());
+
+## Accessing an index 
+
+        With normal arrays[]
+            We can use brackets notation to access the value of a particular index/element.
+            double[] ratings = {3.2, 2.5, 1.7};
+ 
+            System.out.println(ratings[1]);
+
+        For ArrayList, brackets notations wont work. instead, we use the method get() to access and index/element.
+
+## Changing the value
+
+        When we were using array, we could rewrite entries by the using bracket notation to reassign value:
+
+        String[] shoppingCart = {"Trench Coat", "Tweed Houndstooth Hat", "Magnifying Glass"};
+ 
+        shoppingCart[0] = "Tweed Cape";
+
+    ArrayList has slightly different way of doing this, using the set() method:
+
+## Remove an item from ArrayList
+
+        ArrayList<String> shoppingCart = new ArrayList<String>();
+        
+        shoppingCart.add("Trench Coat");
+        shoppingCart.add("Tweed Houndstooth Hat");
+        shoppingCart.add("Magnifying Glass");
+        
+        shoppingCart.remove(1);
+        // shoppingCart now holds ["Trench Coat", "Magnifying Glass"]
+
+    We can Alp remove an item by specifying the value to remove 
+    ArrayList<String> shoppingCart = new ArrayList<String>();
+ 
+        shoppingCart.add("Trench Coat");
+        shoppingCart.add("Tweed Houndstooth Hat");
+        shoppingCart.add("Magnifying Glass");
+        
+        shoppingCart.remove("Trench Coat");
+        // shoppingCart now holds ["Tweed Houndstooth Hat", "Magnifying Glass"]
+
+## Getting an Item's Index
+
+    
+
+
+
+
+
+
+
 
 
 

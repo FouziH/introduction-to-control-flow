@@ -51,6 +51,15 @@
         Example:
             String[] clothingItems = {"Tank Top", "Bennie", "Funny Socks", "Corduroys"};
 
+## Printing arrays
+
+        If we want to have more descriptive printout of the arrays itself, we need a toString() method that is provided by the Arrays package in Java.
+
+        To import package from Java Arrays, we need to:
+        
+            import java.utils.Arrays
+
+
 
 
             

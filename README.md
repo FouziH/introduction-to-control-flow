@@ -93,6 +93,10 @@
 
             If we want to add an element at the end of the ArrayList, we will call add() method to add an index/element.
 
+## ArrayList Size 
+
+            To get the length of an ArrayList, we need to use the size() method to get the length.
+
 
 
 

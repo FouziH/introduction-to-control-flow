@@ -20,6 +20,7 @@ public class EmptyArray {
 
         sampleFeed.setFavoriteArticles(2, "Humans: Exterminate Or Not?");
         sampleFeed.setFavoriteArticles(3, "Organic Eye Implants");
+        sampleFeed.setFavoriteArticles(0, "Oil News");
     
     }
 

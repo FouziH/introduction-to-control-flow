@@ -164,6 +164,8 @@
             while(Silliness > 10) {
                 //codes to run 
             }
+
+            Like an if statement, the code inside a while loop will only run if the condition is true.
     
 
 

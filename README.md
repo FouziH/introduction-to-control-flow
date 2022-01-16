@@ -31,6 +31,42 @@
             This conditional will check a given value against any number of conditions and run the code block where there is a match;   
 
 
+    Creating an array explicitly 
+
+    To create and array 
+        We first need to declare the type of data it hold:
+        For Example:
+            double[] prices;
+
+        Then we can explicitly initialize the array to contain the data we want to store:
+
+        prices = {12, 15, 15.87, 14.22, 16.66};
+
+        Just like with simple variables, we can declare and initialize in the same line 
+
+        double[] prices = {12, 15, 15.87, 14.22, 16.66};
+
+        We can also use arrays to hold Strings and other objects as well as primitives
+
+        Example:
+            String[] clothingItems = {"Tank Top", "Bennie", "Funny Socks", "Corduroys"};
+
+## Printing arrays
+
+        If we want to have more descriptive printout of the arrays itself, we need a toString() method that is provided by the Arrays package in Java.
+
+        To import package from Java Arrays, we need to:
+
+            import java.util.Arrays
+
+            Tod print String[] topics = {"Opinion", "Tech", "Science", "Health"};
+            
+            System.out.println(Arrays.toString(topics));
+
+        Get elements
+
+
+
 
             
 

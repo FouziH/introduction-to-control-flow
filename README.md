@@ -114,7 +114,10 @@
             //Accessing the size of the ArrayList 
             System.out.println(toDoList.size());
 
-#
+## Accessing an index 
+
+        With normal arrays[]
+            We can use brackets notation to access the value of a particular index/element.
 
 
 

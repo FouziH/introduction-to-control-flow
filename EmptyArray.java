@@ -1,12 +1,13 @@
 import java.util.Arrays;
+
 public class EmptyArray {
-    String[] topics = {"Opinion", "Tech", "Science", "Health"};
-    int[] views = {0, 0, 0, 0};
+    String[] topics = { "Opinion", "Tech", "Science", "Health" };
+    int[] views = { 0, 0, 0, 0 };
     String[] favoriteArticles;
 
     public EmptyArray() {
 
-        //initialize favoriteArticles here:
+        // initialize favoriteArticles here:
         favoriteArticles = new String[10];
 
     }
@@ -22,10 +23,8 @@ public class EmptyArray {
         sampleFeed.setFavoriteArticles(3, "Organic Eye Implants");
         sampleFeed.setFavoriteArticles(0, "Oil News");
 
-          System.out.println(Arrays.toString(sampleFeed.favoriteArticles)
+        System.out.println(Arrays.toString(sampleFeed.favoriteArticles);
     
     }
 
-
-    
 }

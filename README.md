@@ -37,6 +37,8 @@
         We first need to declare the type of data it hold:
         For Example:
             double[] prices;
-            
+
+        Then we can explicitly initialize the array to contain the data we want to store:
+
             
 

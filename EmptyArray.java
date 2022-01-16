@@ -11,6 +11,11 @@ public class EmptyArray {
 
     }
 
-    
+    public void setFavoriteArticles(int favoriteIndex, String newArticle) {
+
+    }
+
+
+
     
 }

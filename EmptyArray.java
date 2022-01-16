@@ -13,7 +13,8 @@ public class EmptyArray {
     }
 
     public void setFavoriteArticles(int favoriteIndex, String newArticle) {
-
+    // Add newArticle to favoriteArticles:
+    favoriteArticles[favoriteIndex] = newArticle;
     }
 
     public  static void main (String[] args) {

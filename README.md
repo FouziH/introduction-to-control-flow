@@ -89,7 +89,9 @@
                 ArrayList<String> toDoList = new ArrayList<String>();
 
             
+            ArrayList comes with and add() method which inserts and element into the structure.
 
+            If we want to add an element at the end of the ArrayList, we will call add() method to add an index/element.
 
 
 

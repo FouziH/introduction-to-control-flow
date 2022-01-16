@@ -23,7 +23,7 @@ public class EmptyArray {
         sampleFeed.setFavoriteArticles(3, "Organic Eye Implants");
         sampleFeed.setFavoriteArticles(0, "Oil News");
 
-        System.out.println(Arrays.toString(sampleFeed.favoriteArticles);
+        System.out.println(Arrays.toString(sampleFeed.favoriteArticles));
     
     }
 

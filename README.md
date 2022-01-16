@@ -35,5 +35,8 @@
 
     To create and array 
         We first need to declare the type of data it hold:
+        For Example:
+            double[] prices;
+            
             
 

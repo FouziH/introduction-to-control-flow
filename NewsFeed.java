@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class NewsFeed {
 
     public NewsFeed() {
@@ -16,6 +18,7 @@ public class NewsFeed {
 
         String[] topics = sampleFeed.getTopics();
         System.out.println(topics);
+        System.out.println(Arrays.toString(topics));
 
     }
 }

@@ -42,8 +42,11 @@
 
         prices = {12, 15, 15.87, 14.22, 16.66};
 
+        Just like with simple variables, we can declare and initialize in the same line 
 
-        
+        double[] prices = {12, 15, 15.87, 14.22, 16.66};
+
+
 
             
 

@@ -134,7 +134,31 @@
 
     ArrayList has slightly different way of doing this, using the set() method:
 
-    
+## Remove an item from ArrayList
+
+        ArrayList<String> shoppingCart = new ArrayList<String>();
+        
+        shoppingCart.add("Trench Coat");
+        shoppingCart.add("Tweed Houndstooth Hat");
+        shoppingCart.add("Magnifying Glass");
+        
+        shoppingCart.remove(1);
+        // shoppingCart now holds ["Trench Coat", "Magnifying Glass"]
+
+    We can Alp remove an item by specifying the value to remove 
+    ArrayList<String> shoppingCart = new ArrayList<String>();
+ 
+        shoppingCart.add("Trench Coat");
+        shoppingCart.add("Tweed Houndstooth Hat");
+        shoppingCart.add("Magnifying Glass");
+        
+        shoppingCart.remove("Trench Coat");
+        // shoppingCart now holds ["Tweed Houndstooth Hat", "Magnifying Glass"]
+
+
+
+
+
 
 
 

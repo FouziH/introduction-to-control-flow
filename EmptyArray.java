@@ -4,6 +4,8 @@ public class EmptyArray {
     int[] views = {0, 0, 0, 0};
     String[] favoriteArticles;
 
-    public
+    public EmptyArray() {
+
+    }
     
 }

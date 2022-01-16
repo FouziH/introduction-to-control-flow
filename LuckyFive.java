@@ -18,7 +18,8 @@ public class LuckyFive {
     int passcode = 0524;
 
     while(passcode != 0524 && attempts < 4) {
-        System.out.println("Try agian");
+        System.out.println("Try again");
+        attempts += 1;
     }
     
     

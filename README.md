@@ -46,6 +46,10 @@
 
         double[] prices = {12, 15, 15.87, 14.22, 16.66};
 
+        We can also use arrays to hold Strings and other objects as well as primitives
+
+        
+
 
 
             

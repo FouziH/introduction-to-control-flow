@@ -126,8 +126,15 @@
 
 ## Changing the value
 
-        When we were using array, we could rewrite entries by the using bracket notation to reassign value
+        When we were using array, we could rewrite entries by the using bracket notation to reassign value:
 
+        String[] shoppingCart = {"Trench Coat", "Tweed Houndstooth Hat", "Magnifying Glass"};
+ 
+        shoppingCart[0] = "Tweed Cape";
+
+    ArrayList has slightly different way of doing this, using the set() method:
+
+    
 
 
 

@@ -14,6 +14,10 @@ import java.util.ArrayList;
         toDoList.add(toDo1);
         toDoList.add(toDo2);
         toDoList.add(toDo3);
+        
+
+        //To add element/index to an ArrayList 
+        toDoList.add("Hamza");
 
         System.out.println(toDoList);
         System.out.println(toDoList.get(2));

@@ -63,6 +63,8 @@
             
             System.out.println(Arrays.toString(topics));
 
+        Get elements
+
 
 
 

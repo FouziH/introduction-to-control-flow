@@ -67,6 +67,11 @@
 
     In Java, when an array is created, it has a fixed size and we can add or remove elements. 
 
+    To create mutable and dynamic list, we use JAva's ArrayLits:
+
+    ArrayList Allow to:
+        
+
 
 
 

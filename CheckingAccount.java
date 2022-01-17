@@ -1,7 +1,7 @@
 public class CheckingAccount {
-    private String name;
-    private int balance;
-    private String id;
+    public String name;
+    public int balance;
+    public String id;
 
     public CheckingAccount(String inputName, int inputBalance, String inputId) {
         name = inputName;
@@ -9,11 +9,11 @@ public class CheckingAccount {
         id = inputId;
     }
 
-    private void addFunds(int fundsToAdd) {
+    public void addFunds(int fundsToAdd) {
         balance += fundsToAdd;
     }
 
-    private void getInfo() {
+    public void getInfo() {
         System.out.println("This checking account belongs to " + name +". It has " + balance + "dollars in it.");
     }
 

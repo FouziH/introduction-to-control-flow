@@ -1,8 +1,8 @@
 public class CheckingAccount {
     private String name;
-    private String balance;
+    private int balance;
 
-    public CheckingAccount(String inputName, String inputBalance) {
+    public CheckingAccount(String inputName, int inputBalance) {
         name = inputName;
         balance = inputBalance;
     }

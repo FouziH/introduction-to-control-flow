@@ -2,16 +2,16 @@ public class PrimeDirective {
     public static void main(String[] args) {
 
         for(int i = 1; i <= 100; i++) {
-            int count = i;
+            int counter = i;
 
-            if(count % 3 == 0) {
+            if(counter % 3 == 0) {
                 System.out.println("Fizz");
-            } else if(count% 5 == 0) {
+            } else if(counter % 5 == 0) {
                 System.out.println("Buzz");
-            } else if(count % 3 == 0 && count % 5 == 0) {
+            } else if(counter % 3 == 0 && counter % 5 == 0) {
                 System.out.println("FizzBuzz");
             } else {
-                System.out.println(count);
+                System.out.println(counter);
             }
         }
     }

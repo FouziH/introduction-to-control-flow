@@ -31,6 +31,7 @@ public class CheckingAccount {
         myAccount.addFunds(587);
         System.out.println(fullName);
         System.out.println(myAccount.balance);
+        myAccount.getInfo();
 
     
 

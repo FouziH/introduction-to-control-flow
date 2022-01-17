@@ -24,12 +24,12 @@ public class CheckingAccount {
 
     public static void main(String[] args) {
         CheckingAccount myAccount = new CheckingAccount("Hamza","Mohamed", 2000);
-
-        System.out.println(myAccount.firstName);
+        String fullName = myAccount.firstName + " " + myAccount.lastName;
+        System.out.println(fullName);
         System.out.println(myAccount.balance);
 
         myAccount.addFunds(587);
-        System.out.println(myAccount.lastName);
+        System.out.println(fullName);
         System.out.println(myAccount.balance);
 
     

@@ -8,7 +8,7 @@ public class CheckingAccount {
 
     public CheckingAccount(String inputName, String lastNameInput, int inputBalance) {
        firstName= inputName;
-       lastName = lastNameInput
+       lastName = lastNameInput;
         balance = inputBalance;
         // id = inputId;
     }
@@ -18,11 +18,12 @@ public class CheckingAccount {
     }
 
  private void getInfo() {
-        System.out.println("This checking account belongs to " + name +". It has " + balance + "dollars in it.");
+        String fullName = firstName + " " + lastName;
+        System.out.println("This checking account belongs to " + fullName +". It has " + balance + "dollars in it.");
     }
 
     public static void main(String[] args) {
-        CheckingAccount myAccount = new CheckingAccount("Hamza", 2000);
+        CheckingAccount myAccount = new CheckingAccount("Hamza","Mohamed", 2000);
 
         System.out.println(myAccount.firstName);
         System.out.println(myAccount.balance);

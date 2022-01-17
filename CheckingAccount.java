@@ -19,7 +19,7 @@ public class CheckingAccount {
 
  private void getInfo() {
         String fullName = firstName + " " + lastName;
-        System.out.println("This checking account belongs to " + fullName +". It has " + balance + "dollars in it.");
+        System.out.println("This checking account belongs to " + fullName +". It has " + balance + " dollars in it.");
     }
 
     public static void main(String[] args) {

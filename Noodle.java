@@ -6,4 +6,8 @@ class Noodle {
     public void Cooke() {
         this.texture = "cooked";
     }
+
+    public static void main (String[] args) {
+        
+    }
 }

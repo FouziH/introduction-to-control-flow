@@ -1,12 +1,12 @@
 public class CheckingAccount {
-    public String name;
-    public int balance;
-    public String id;
+    private String name;
+    private int balance;
+    // public String id;
 
-    public CheckingAccount(String inputName, int inputBalance, String inputId) {
+    public CheckingAccount(String inputName, int inputBalance) {
         name = inputName;
         balance = inputBalance;
-        id = inputId;
+        // id = inputId;
     }
 
     public void addFunds(int fundsToAdd) {

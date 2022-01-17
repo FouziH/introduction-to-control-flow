@@ -11,7 +11,7 @@ public class Bank {
     public static void main(String[] args) {
 
         Bank bankOfGods = new Bank();
-        System.out.println(bankOfGods.accountOne.name);
+        System.out.println(bankOfGods.accountOne.firstName);
         System.out.println(bankOfGods.accountOne.balance);
         
     }

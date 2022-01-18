@@ -1,9 +1,6 @@
 //Creating parent class= or inheritance 
 
-class Spaghetti {
+class Spaghetti extends Noodle {
 
 }
 
-class Noodle extends Spaghetti {
-    
-}

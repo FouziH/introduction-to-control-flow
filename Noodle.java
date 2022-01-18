@@ -2,7 +2,7 @@ class Noodle {
     double lengthInCentimeters;
     String shape;
     String texture = "brittle";
-
+    Noodle(double, lenInCent, )
     public void Cooke() {
         this.texture = "cooked";
     }

@@ -6,6 +6,9 @@ class Noodle {
     String texture = "brittle";
     Noodle(double lenInCent, double withInCent, String shp, String ingr) {
 
+        lengthInCentimeters = lenInCent;
+        
+
     }
     public void Cooke() {
         this.texture = "cooked";

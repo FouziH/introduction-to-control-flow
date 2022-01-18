@@ -8,7 +8,10 @@ class Noodle {
 
         lengthInCentimeters = lenInCent;
         withInCentimeters = withInCent;
-        
+         shape = shp;
+         ingredients = ingr;
+
+
 
 
     }
@@ -20,6 +23,10 @@ class Noodle {
 
         Spaghetti spaghettiPomodoro = new Spaghetti();
         System.out.println(spaghettiPomodoro.texture);
+
+        Pho  phoChay = new Pho();
+
+        System.out.println(phoChay.texture);
 
     }
 }

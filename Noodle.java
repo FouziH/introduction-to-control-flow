@@ -4,14 +4,14 @@ class Noodle {
     String shape;
     String ingredients;
     String texture = "brittle";
-    Noodle(double lenInCent, double withInCent, String shp, String ingr) {
-
-        lengthInCentimeters = lenInCent;
-        withInCentimeters = withInCent;
-         shape = shp;
-         ingredients = ingr;
-
-    }
+    Noodle(double lenInCent, double wthInCent, String shp, String ingr) {
+    
+    this.lengthInCentimeters = lenInCent;
+    this.withInCentimeters = wthInCent;
+    this.shape = shp;
+    this.ingredients = ingr;
+      
+  }
     public void Cooke() {
         this.texture = "cooked";
     }

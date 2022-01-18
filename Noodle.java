@@ -7,7 +7,9 @@ class Noodle {
     Noodle(double lenInCent, double withInCent, String shp, String ingr) {
 
         lengthInCentimeters = lenInCent;
+        withInCentimeters = withInCent;
         
+
 
     }
     public void Cooke() {

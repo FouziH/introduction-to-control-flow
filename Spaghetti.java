@@ -1,8 +1,10 @@
 //Creating parent class= or inheritance 
-import java.*;
-class Spaghetti extends Noodle {
+// class Spaghetti extends Noodle {
+//     Spaghetti() {
+//         super()
+//     }
 
-}
+// }
 
 class Pho extends Noodle {
     Pho(){

@@ -1,8 +1,12 @@
 class Noodle {
     double lengthInCentimeters;
+    double withInCentimeters;
     String shape;
+    String ingredients;
     String texture = "brittle";
-    Noodle(double, lenInCent, )
+    Noodle(double lenInCent, double withInCent, String shp, String ingr) {
+
+    }
     public void Cooke() {
         this.texture = "cooked";
     }

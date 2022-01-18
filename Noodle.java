@@ -11,9 +11,6 @@ class Noodle {
          shape = shp;
          ingredients = ingr;
 
-
-
-
     }
     public void Cooke() {
         this.texture = "cooked";
@@ -26,7 +23,7 @@ class Noodle {
 
         Pho  phoChay = new Pho();
 
-        System.out.println(phoChay.texture);
+        System.out.println(phoChay.shape);
 
     }
 }

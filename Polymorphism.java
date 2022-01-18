@@ -18,6 +18,8 @@ Orange orange = new Orange();
 
 System.out.println(juicer.makeJuice(orange));
 
+Polymorphism, which derives from Greek meaning “many forms”, allows a child class to share the information and behavior of its parent class while also incorporating its own functionality.
+
 
 
 
